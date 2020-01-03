@@ -11,8 +11,8 @@ public:
 	bool release();
 	bool isRun();
 
-	virtual void OnCreate() = 0;
-	virtual void OnUpdate() = 0;
+	virtual void OnCreate();
+	virtual void OnUpdate();
 	virtual void OnDestroy();
 
 	~Window();
