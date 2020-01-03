@@ -1,5 +1,6 @@
 #include "Window.h"
 
+
 Window* window = nullptr;
 
 Window::Window()
@@ -54,6 +55,7 @@ bool Window::init()
 	
 		m_hwnd=::CreateWindowEx(WS_EX_OVERLAPPEDWINDOW, "MyWindowClass", "DirectX Application", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 1280, 720,
 		NULL, NULL, NULL, NULL);
+
 	if (!m_hwnd) 
 		return false;
 						
@@ -61,6 +63,7 @@ bool Window::init()
 		::UpdateWindow(m_hwnd);
 		
 		m_is_run = true;
+
 	return true;
 }
 

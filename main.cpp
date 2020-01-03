@@ -1,8 +1,5 @@
 #include "AppWindow.h"
 
-
-
-
 int main()
 {
 	AppWindow app;
@@ -12,6 +9,7 @@ int main()
 		while (app.isRun())
 		{
 			app.broadcast();
+
 		}
 
 	}

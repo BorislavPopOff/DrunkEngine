@@ -1,2 +1,8 @@
 ﻿  AppWindow.cpp
-  NaBokoPiqniqEngine.vcxproj -> C:\Users\User\source\repos\NaBokoPiqniqEngine\Debug\NaBokoPiqniqEngine.exe
+  main.cpp
+  Generating Code...
+AppWindow.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall Window::OnCreate(void)" (?OnCreate@Window@@UAEXXZ) referenced in function "public: virtual void __thiscall AppWindow::OnCreate(void)" (?OnCreate@AppWindow@@UAEXXZ)
+AppWindow.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall Window::OnUpdate(void)" (?OnUpdate@Window@@UAEXXZ) referenced in function "public: virtual void __thiscall AppWindow::OnUpdate(void)" (?OnUpdate@AppWindow@@UAEXXZ)
+GraphicsEngine.obj : error LNK2019: unresolved external symbol "public: __thiscall GraphicsEngine::GraphicsEngine(void)" (??0GraphicsEngine@@QAE@XZ) referenced in function "public: static class GraphicsEngine * __cdecl GraphicsEngine::get(void)" (?get@GraphicsEngine@@SAPAV1@XZ)
+GraphicsEngine.obj : error LNK2019: unresolved external symbol "public: __thiscall GraphicsEngine::~GraphicsEngine(void)" (??1GraphicsEngine@@QAE@XZ) referenced in function "void __cdecl `public: static class get * __cdecl GraphicsEngine::get(void)'::`2'::`dynamic atexit destructor for 'engine''(void)" (??__Fengine@?1??get@GraphicsEngine@@SAPAV1@XZ@YAXXZ)
+C:\Users\User\source\repos\NaBokoPiqniqEngine\Debug\NaBokoPiqniqEngine.exe : fatal error LNK1120: 4 unresolved externals
