@@ -2,10 +2,12 @@
 
 AppWindow::AppWindow()
 {
+	
 }
 
 AppWindow::~AppWindow()
 {
+
 }
 
 void AppWindow::OnCreate()

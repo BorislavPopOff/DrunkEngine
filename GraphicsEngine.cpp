@@ -1,5 +1,9 @@
 #include "GraphicsEngine.h"
 
+GraphicsEngine::GraphicsEngine()
+{
+}
+
 bool GraphicsEngine::init()
 {
 	D3D_DRIVER_TYPE driver_types[] =
@@ -46,6 +50,10 @@ bool GraphicsEngine::release()
 	m_d3d_device->Release();
 
 	return true;
+}
+
+GraphicsEngine::~GraphicsEngine()
+{
 }
 
 GraphicsEngine* GraphicsEngine::get()
